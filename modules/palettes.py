@@ -5,15 +5,22 @@ Note that each color palette is a dictionary where the value is a color and the
 key is the percentile rank (of frequencies in the histogram) at which that
 color will occur. Colors between these pre-defined colors are linearly
 interpolated with respect to the percentile rank.
+
+If you customise the palettes or make your own, it is useful to note that the
+percentile rank 0 corresponds to a frequency of zero (the minimum frequency)
+and a percentile rank of 100 corresponds to the maximum frequency achieved in
+the histogram. Percentile ranks can be floats. You can use the same color for
+multiple percentile ranks, but preferably don't reuse the same percentile rank
+in the same palette.
 """
 
 D3 = {
-    0: "060036",  # dark blue
+    0: "060036",    # dark blue
     55: "002572",   # dark blue
     85: "AE0000",   # red
     92: "FF6F00",   # orange
     99: "FFFF5E",   # yellow
-    100: "FFFFFF",    # white
+    100: "FFFFFF",  # white
 }
 
 D19 = {
@@ -32,7 +39,7 @@ D23 = {
     85: "D0D1E6",   # light purple
     95: "DF4949",   # light red
     97: "AE0000",   # red
-    98: "396707",  # green
+    98: "396707",   # green
     100: "014636",  # dark green
 }
 
@@ -60,7 +67,7 @@ Z5 = {
     85: "feaa74",   # peach
     97: "ec585f",   # light red
     99: "be2dad",   # purple
-    99.8: "261157",   # dark purple
+    99.8: "261157", # dark purple
     100: "000000",  # black
 }
 
