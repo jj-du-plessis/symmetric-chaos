@@ -1,0 +1,3 @@
+non-square figures
+memory bottleneck
+slow colormap function
