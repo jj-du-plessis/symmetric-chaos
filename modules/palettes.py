@@ -23,6 +23,16 @@ D3 = {
     100: "FFFFFF",  # white
 }
 
+D6 = {
+    0: "FFFFFF",    # white
+    20: "FFFFFF",   # white
+    65: "ff80ff",   # light pink
+    85: "8066ff",   # light purple
+    95: "0041c5",   # dark blue
+    98: "4c0076",   # dark purple
+    100: "000000",  # black
+}
+
 D19 = {
     0: "FFFFFF",    # white
     35: "FFFF5E",   # yellow
@@ -68,15 +78,5 @@ Z5 = {
     97: "ec585f",   # light red
     99: "be2dad",   # purple
     99.8: "261157", # dark purple
-    100: "000000",  # black
-}
-
-Z6 = {
-    0: "FFFFFF",    # white
-    20: "FFFFFF",   # white
-    65: "ff80ff",   # light pink
-    85: "8066ff",   # light purple
-    95: "0041c5",   # dark blue
-    98: "4c0076",   # dark purple
     100: "000000",  # black
 }
