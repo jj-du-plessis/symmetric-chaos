@@ -13,6 +13,11 @@ Run the following scripts to generate the appropriate figures:
 - Several variations of the parameters used to define $f$ are given in `modules/parameters.py`. You can come up with your own parameters, but this may involve much trial and error. The book _Symmetry in Chaos_ has a table of usable parameters in the appendix.
 - Several colour palettes used in the density plots for these attractors are given in `modules/palettes.py`. You can customise these.
 
+## Known Issues
+- The figures generated are square, but the coordinates are not 1:1, so one dimension of the attractor may be slightly squished.
+- Iterates are saved to a NumPy array. This caps the number of iterations you can perform by the amount of RAM you have available. More egregious is our use of NumPy's histogram2d function which is very heavy on RAM, so you can free up much memory by writing your own histogramming routine for this purpose.
+- The `colormap` function in `modules/colormap.py` is quite slow. It can be sped up using Numba's `jit`.
+
 ## Software Versions
 This code was written using the following Python and package versions:
 - Python 3.10.12
