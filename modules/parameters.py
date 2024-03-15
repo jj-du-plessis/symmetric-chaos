@@ -5,7 +5,7 @@ parameters in these lists are ordered as follows:
     lambda, alpha, beta, gamma, omega, n
 
 Each variable is named according to the symmetry group of the attractor. The
-symbol is D when the symmetric is dihedral and Z when it is only cyclic, while
+symbol is D when the symmetry is dihedral and Z when it is only cyclic, while
 the number is the parameter n.
 
 These parameters can be customised, but you'll often find an exception is
