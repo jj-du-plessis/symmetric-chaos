@@ -7,7 +7,7 @@ where $\lambda,\alpha,\beta,\omega,\gamma$ are real parameters and $n$ is a posi
 Run the following scripts to generate the appropriate figures:
 - The script `plot_points.py` iterates the map $f$ many times and plots the real and imaginary parts of these points as (x,y) coordinate pairs and saves the figure.
 - The script `compute_histogram.py` iterates $f$ and saves a 2D histogram of the computed points.
-- The script `plot_density.py` uses the 2D histogram from `compute_histogram.py` and plots the density of points in each bin using color to distinguish to densities.
+- The script `plot_density.py` uses the 2D histogram from `compute_histogram.py` and plots the density of points in each bin using color to distinguish densities.
 
 ## Parameters and Palettes
 - Several variations of the parameters used to define $f$ are given in `modules/parameters.py`. You can come up with your own parameters, but this may involve much trial and error. The book _Symmetry in Chaos_ has a table of usable parameters in the appendix.
